@@ -1,3 +1,6 @@
+use role sysadmin;
+use database myco_db;
+use schema inventory;
 CREATE OR REPLACE TABLE my_inventory(
   sku VARCHAR,
   price NUMBER
