@@ -1,3 +1,7 @@
+use role sysadmin;
+use database myco_db;
+use schema inventory;
+
 INSERT INTO my_inventory
   VALUES ('XYZ12345', 10.00),
          ('XYZ81974', 50.00),
