@@ -1,6 +1,8 @@
 use role sysadmin;
+use warehouse compute_wh;
 use database myco_db;
 use schema inventory;
+
 
 INSERT INTO my_inventory
   VALUES ('XYZ12345', 10.00),
